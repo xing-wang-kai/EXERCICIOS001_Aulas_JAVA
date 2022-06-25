@@ -51,6 +51,28 @@ public class CriarConta {
 		System.out.println("CC: " + cc1.getSaldo());
 		System.out.println("CP: " + cp1.getSaldo());
 		
+		System.out.println("----------------GERENTE-----------------------------");
+		Gerente gerenteAfonso = new Gerente("Afonso de Nobrega", "222.222.222-22", 2000.00, "2222");
+		
+		System.out.println("Total de Bonificacao: " + gerenteAfonso.getBonificacao());
+		System.out.println("-------------------FIM--------------------------------");
+		
+		System.out.println("----------------FUNCIONARIO-----------------------------");
+		
+		Funcionarios funcionarioJose = new Funcionarios("Jose de souza agiar", "111.111.111-11", 1000.00);
+		
+		System.out.println("TOTAL DE BONIFICACAO: " + funcionarioJose.getBonificacao());
+		
+		System.out.println("-------------------FINAL---------------------------------");
+		
+		System.out.println("-------------------SISTEMA DE LOGIN---------------------------------");
+		
+		SistemaInterno sistInt = new SistemaInterno();
+		
+		sistInt.autentificar(gerenteAfonso);
+		
+		System.out.println("-------------------FINAL---------------------------------");
+		
 		
 		
 		/**
