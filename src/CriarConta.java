@@ -40,6 +40,20 @@ public class CriarConta {
 		System.out.println("novo saldo conta2 : " + conta2.getSaldo());
 		
 		/**
+		 * USANDO NOVOS METODOS PARA OVERRIDE O METODO CONTA, NESTA INSTANCIA
+		 * ENTÂO AO TENTAR SACAR, O CC1 PAGARA UMA TAXA DE 0.1 ENQUANTO O CP1 NAO TEM TAXAS.
+		 */
+		ContaCorrente cc1 = new ContaCorrente(2000.00, 1234, 1234, Paula);
+		ContaPoupanca cp1 = new ContaPoupanca(1000.00, 1234, 1234, Veronica);
+		
+		cc1.transferir(200, cp1);
+		
+		System.out.println("CC: " + cc1.getSaldo());
+		System.out.println("CP: " + cp1.getSaldo());
+		
+		
+		
+		/**
 		 * conta1 saldo: 200.0
 		 * conta1 agencia: 12345
 		 * conta1 numero: 55555555
