@@ -1,3 +1,6 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.*;
 
 public class TesteReferencia {
 	public static void main(String[] args)
@@ -7,8 +10,11 @@ public class TesteReferencia {
 		 * para conta o retorno da referencia sempre será o mesmo para ambas as contas.
 		 */
 		
-		Conta Conta01 = new Conta(300, 1234, 4444, new Cliente());
-		Conta Conta02 = new Conta(300, 1234, 4444, new Cliente());
+		Cliente Joana = new Cliente("111.111.111-11", "Joana de souza", "joavana@joana.com", "programadora" );
+		Cliente Andre = new Cliente("222.222.222-22", "Andre joaquin dos santos", "andre@andre.com", "contabilista" );
+		
+		Conta Conta01 = new Conta(300, 1234, 4444, Joana);
+		Conta Conta02 = new Conta(300, 1234, 4444, Andre);
 		
 		System.out.println("Ref Conta01: " + Conta01);
 		System.out.println("Ref Conta02: " + Conta02);

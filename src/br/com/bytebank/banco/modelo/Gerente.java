@@ -1,3 +1,4 @@
+package br.com.bytebank.banco.modelo;
 
 public class Gerente extends Funcionarios implements Autenticavel {
 	protected String senha;

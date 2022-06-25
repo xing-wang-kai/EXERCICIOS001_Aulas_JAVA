@@ -1,21 +1,16 @@
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.*;
 
 public class CriarConta {
 	public static void main(String[] args)
 	{
 		
-		Cliente Paula = new Cliente();
-		Paula.nome = "Paula de souza";
-		Paula.cpf = "111.111.111-111";
-		Paula.email = "paula@email.com.br";
-		Paula.profissao = "programadora";
+		Cliente Paula = new Cliente("111.111.111-111","Paula de souza", "paula@email.com.br", "programadora" );
 		
 		Conta conta1 = new Conta(200, 12345, 3333333, Paula);
 		
-		Cliente Veronica = new Cliente();
-		Veronica.nome = "veronica da silva souza";
-		Veronica.cpf = "222.222.222-222";
-		Veronica.profissao = "Dona de Casa";
-		Veronica.email = "veronica@email.com.br";
+		Cliente Veronica = new Cliente("222.222.222-222", "veronica da silva souza","veronica@email.com.br", "Dona de Casa" );
 		
 		Conta conta2 = new Conta(300, 123434, 44444, Veronica);
 		
