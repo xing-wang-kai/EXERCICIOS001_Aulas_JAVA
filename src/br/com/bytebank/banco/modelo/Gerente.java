@@ -1,5 +1,9 @@
 package br.com.bytebank.banco.modelo;
-
+/**
+ * ESTA CLASS INSTANCIA UM GERENTE ONDE O MEMSO PODE EXTENDER FUNCIONARIO E AUTENTIFICAVEL;
+ * @author KAI WANG
+ *
+ */
 public class Gerente extends Funcionarios implements Autenticavel {
 	protected String senha;
 	/**

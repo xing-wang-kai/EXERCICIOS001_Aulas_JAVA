@@ -1,7 +1,11 @@
 package br.com.bytebank.banco.teste;
 
 import br.com.bytebank.banco.modelo.*;
-
+/**
+ *  CLASS PARA TESTES COM INSTANCIAS DE CLASS CONTA E CLASS CLIENTE
+ * @author KAI WANG
+ *
+ */
 public class TesteReferencia {
 	public static void main(String[] args)
 	{

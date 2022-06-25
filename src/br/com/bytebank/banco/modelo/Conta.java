@@ -1,5 +1,9 @@
 package br.com.bytebank.banco.modelo;
-
+/**
+ * CLASS QUE INICIA UMA NOVA CONTA COM TODOS METODOS E ATRIBUTOS BASICOS DE UMA CONTA.
+ * @author KAI WANG
+ *
+ */
 public class Conta {
 	
 	private static int totalContas;
@@ -17,7 +21,10 @@ public class Conta {
 	public int numero;
 	public Cliente titular;
 	
-	
+	/**
+	 * METODOS GETTER E SETTER PARA ACESSAR OS ATRIBUTOS DA CONTA.
+	 * @return
+	 */
 	public double getSaldo() {
 		return this.saldo;
 	}

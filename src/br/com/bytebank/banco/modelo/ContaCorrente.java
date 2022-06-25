@@ -1,5 +1,11 @@
 package br.com.bytebank.banco.modelo;
 
+/**
+ * ESTA CLASS INSTANCIA NOVAS CONTA DO TIPO CONTA CORRETE.
+ * ESTE EXERCICIOS FOI REALIZADO PARA TESTAR HERANCAS.
+ * @author KAI WANG
+ *
+ */
 public class ContaCorrente extends Conta {
 	public ContaCorrente(double saldo, int agencia, int numero, Cliente titular ) {
 		super(saldo, agencia, numero, titular);

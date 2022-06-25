@@ -1,5 +1,9 @@
 package br.com.bytebank.banco.modelo;
-
+/**
+ * ESTA CLASS CRIA UM NOVO FUNCIONARIO;
+ * @author KAI WANG
+ *
+ */
 public class Funcionarios {
 	/**
 	 * TODOS ATRIBUTOS PARA ESTA CLASS CHAMADA DE FUNCIONARIOS.
