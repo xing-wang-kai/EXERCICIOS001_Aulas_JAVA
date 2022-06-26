@@ -12,7 +12,9 @@ public class SistemaInterno {
 		if(autenticou) {
 			System.out.println("LOGOU COM SUCESSO! ");
 		}else {
-			System.out.println("ACESSO NEGADO!! ");
+			String acesso = new String("acesso Negado");
+			String novoAcesso = acesso.toUpperCase();
+			System.out.println(novoAcesso);
 		}
 		
 	}
