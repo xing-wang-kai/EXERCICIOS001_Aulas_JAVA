@@ -48,4 +48,7 @@ public class GuardarConta {
 	public void totalConta() {
 		System.out.println("TOTAL DE CONTAS ARMAZENADA: " + this.posicao);
 	}
+	public void retornaContas() {
+		
+	}
 }

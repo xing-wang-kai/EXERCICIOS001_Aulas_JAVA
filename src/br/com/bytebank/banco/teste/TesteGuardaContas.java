@@ -45,5 +45,11 @@ public class TesteGuardaContas {
 		System.out.println("Conta4: " + ref4.titular.nome);
 		System.out.println("Conta5: " + ref5.titular.nome);
 		
+		int[] arrayNumeros = {4, 5, 6, 7, 8, 10};
+		
+		for(Object item: arrayNumeros) {
+			System.out.println(item);
+		}
+		
 	}
 }
